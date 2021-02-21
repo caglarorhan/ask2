@@ -1,0 +1,77 @@
+[
+  {
+    "show": true,
+    "life_hour": "144",
+    "content_id": "2265-09i7y6t32732eg",
+    "side": "bottom,right",
+    "position": "fixed",
+    "width": "320px",
+    "height": "90px",
+    "top": "",
+    "left": "16px",
+    "bottom": "100px",
+    "margin": "",
+    "z_index": "2000",
+    "bgColor": "#ffffff",
+    "border": "0px solid #ccc",
+    "border_radius": "0px",
+    "box_shadow": "0px 0px 0px black",
+    "target_host": "",
+    "target_part": "",
+    "backdrop": "false",
+    "backdrop_specs": {
+      "rgba": "rgba(0,0,0,0.5)"
+    },
+    "remove_condition": {
+      "condition": "timer",
+      "value": 1
+    },
+    "content": "<iframe src=\"./ask2.html\" style=\"width:100%; height:100%\"></iframe>",
+    "animations": {
+      "first_animations": {
+        "animation_specs": {
+          "animation_delay": "",
+          "animation_duration": "1s",
+          "animation_direction": "",
+          "animation_play_state": ""
+        },
+        "keyframes": "0%{opacity:0}100%{opacity:1}",
+        "remove_after": "false"
+      }
+    },
+    "scenarios": {
+      "first-load": {
+        "event_source": "window",
+        "event": "load",
+        "also_apply_to": [
+          "yok"
+        ],
+        "animations": [
+          {
+            "animation_name": [
+              "first_animations"
+            ],
+            "repetitive": "true"
+          }
+        ],
+        "except": [
+          "#box"
+        ]
+      }
+    },
+    "close_animation": "",
+    "close_button": "false",
+    "close_button_content": "",
+    "close_button_specs": {
+      "top": "-31px",
+      "right": "-1px",
+      "height": "30px",
+      "width": "30px",
+      "padding": "5px",
+      "margin": "1px",
+      "bgColor": "white",
+      "border": "0 solid black",
+      "title": "Kapat"
+    }
+  }
+]
